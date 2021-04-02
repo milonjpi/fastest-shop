@@ -1,0 +1,43 @@
+.adminHeight{
+    height: 80vh;
+}
+.ulDecoration{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.ulDecoration li {
+  margin-top: 20px;
+}
+label{
+    font-weight: 500;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.table td, .table th {
+  border-top: 0;
+}
+.custom-edit{
+  color:green;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.custom-delete{
+  color:red;
+  font-size: 20px;
+}
+
+.loading{
+  display: inline-block;
+  vertical-align: middle;
+  padding: .375rem .75rem;
+}
+
+
